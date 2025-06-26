@@ -1,6 +1,23 @@
-# Exploring the Impact of Personality on Food Preferences
+# 📊 Full Data Analysis Pipeline: Personality & Food Preference Survey
 
-This project investigates the correlation between personality traits (introvert, extrovert, ambivert) and preferences for various food flavours (sweet, spicy, sour, umami, salty, bitter).
+This project explores whether personality traits (introvert, extrovert, ambivert) are associated with food flavour preferences (sweet, salty, spicy, sour, umami, bitter). More importantly, it demonstrates a **complete data analysis pipeline** — from survey creation and ethical data collection to cleaning, analysis, and final interpretation.
+
+## 🧪 Project Goal
+
+Investigate correlations between personality type and flavour preferences using an 11-question custom-designed survey. The research question:
+> *Are different personality traits statistically associated with stronger preferences for certain food flavours?*
+
+## 🧠 What This Project Demonstrates
+
+This project was created for DATA 201 at the University of Calgary and walks through the **entire data analysis pipeline**:
+
+1. **Problem Definition & Hypothesis**
+2. **Survey Design & Ethics Approval**
+3. **Data Collection (n = 53 participants via Qualtrics)**
+4. **Data Cleaning & Wrangling (Excel/Google Sheets)**
+5. **Analysis Question Formulation**
+6. **Visual Data Exploration & Statistical Reasoning**
+7. **Findings, Report Writing, and Presentation**
 
 ## 👥 Team
 - Alice Thwaites
@@ -9,31 +26,30 @@ This project investigates the correlation between personality traits (introvert,
 - Jenessa Entz
 - Jaiveer Toor
 
-## 📋 Summary
-- Designed and distributed an 11-question survey using Qualtrics (n = 53)
-- Cleaned and analyzed the dataset in Excel and Google Sheets
-- Developed five analysis questions and visualized results
-- Followed ethical protocols approved by the University of Calgary CFREB
-
 ## 📂 Contents
-- Consent form and recruitment message
-- Written report (graded group submission)
-- Final presentation slides
-- Cleaned survey data (anonymous)
-- Visualizations answering research questions
-
-## 🛠️ Tools Used
-- Qualtrics
-- Google Sheets / Excel
-- Canva / Graph Tools
+- `DATA_201_Consent_Form.pdf`: Ethics-compliant consent form
+- `Survey_Recruitment_Message.pdf`: Recruitment message
+- `Group_Project_Report.pdf`: Final written report
+- `Presentation.pdf`: Summary slide deck
+- `Survey_Data.csv`: Cleaned survey response data (anonymous)
+- `visualizations/`: Screenshots of graphs used in analysis
 
 ## 📈 Key Findings
-- Highly sensitive individuals prefer salty, savoury, and sweet flavours
-- Extroverts lean toward bold flavours like spicy and bitter
-- Introverts prefer milder flavours
-- Spicy food preference was unexpectedly higher among introverts
 
-## 🔒 Ethics
-This project complied with the University of Calgary’s CFREB guidelines. The survey was anonymous, voluntary, and no personal information was collected.
+- Highly sensitive individuals preferred salty, sweet, and savoury flavours.
+- Introverts preferred milder flavours (sweet, savoury), while extroverts preferred bolder ones (spicy, bitter).
+- Spicy food preference was surprisingly high among introverts, challenging assumptions about sensation-seeking.
+
+## 🛠️ Tools Used
+- Qualtrics (Survey Distribution)
+- Google Sheets / Excel (Data Cleaning & Visualization)
+- Canva / Graph Tools (Slide Presentation)
+
+## 🔐 Ethical Compliance
+
+This project followed University of Calgary’s CFREB guidelines. All participation was anonymous and voluntary. No identifying information was collected. All data was destroyed after grading.
 
 ---
+
+This project demonstrates how to collect, clean, analyze, and present real-world data — valuable for roles in data science, UX research, and psychology-informed tech.
+
